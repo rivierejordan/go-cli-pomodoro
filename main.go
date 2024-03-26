@@ -35,7 +35,7 @@ func main() {
         fmt.Println("Starting 25-minute work timer...")
         startTimer(25)
     } else if choice == "break" {
-        fmt.Println("Starting 5-minute break timer...")
+        fmt.Println("Starting 5-minute break timer... Let's rest yourself!")
         startTimer(5)
     } else {
         fmt.Println("Invalid choice")
